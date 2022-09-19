@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #cdd1cb;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #10c0e7;
+        height: 100px;
+      }
+
+      h1 {
+        color: white;
+      }
+
+      .logo {
+        font-size: 48;
+      }
+
+      nav {
+        width: 681px;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+      }
+      ul,
+      li,
+      a {
+        background-color: none;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        padding: 0%;
+        font-size: 1.2em;
+        color: white;
+      }
+
+      #nav-link {
+        text-decoration: none;
+      }
+
+      .contenedor {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+      .card {
+        width: 300px;
+        height: 410px;
+        background-color: white;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 10px white;
+      }
+      .img {
+        width: 100%;
+      }
+      .botonenviar {
+        background-color: #10c0e7;
+        font-size: 18px;
+        width: 130px;
+        border-radius: 10px;
+        color: white;
+        border: 0;
+      }
+      .price {
+        color: orange;
+        font-size: 32px;
+        /* margin-top: 20px; */
+        /* padding-top: 20px; */
+      }
+      .b {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 25px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="logo">Patitas Felices</h1>
+      <nav>
+        <ul>
+          <li><a href="#tienda" id="nav-link">Tienda</a></li>
+          <li><a href="#servicios" id="nav-link"> Servicios</a></li>
+          <li><a href="#emergencias" id="nav-link"> Emergencias</a></li>
+          <li><a href="#sobrenosotros" id="nav-link">Sobre Nosotros</a></li>
+          <li><a href="#contacto" id="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contenedor">
+      <div class="card">
+        <img class="img" src="i1.webp" alt="alimento perros" />
+        <h2>Alimento Dogui ADULTOS bolsa 3KG</h2>
+        <div class="b">
+          <p class="price">$2.200</p>
+          <button class="botonenviar" type="submit">AGREGAR</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="img" src="i1.webp" alt="alimento perros" />
+        <h2>Alimento Dogui ADULTOS bolsa 3KG</h2>
+        <div class="b">
+          <p class="price">$2.200</p>
+          <button class="botonenviar" type="submit">AGREGAR</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="img" src="i1.webp" alt="alimento perros" />
+        <h2>Alimento Dogui ADULTOS bolsa 3KG</h2>
+        <div class="b">
+          <p class="price">$2.200</p>
+          <button class="botonenviar" type="submit">AGREGAR</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
